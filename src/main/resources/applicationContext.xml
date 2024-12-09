@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Student1" class="com.piy.SimpleSpringBoot.beans.Student">
+        <constructor-arg name="firstName" value="Piyush"/>
+        <constructor-arg name="lastName" value="Pandey"/>
+    </bean>
+    <bean id="Student2" class="com.piy.SimpleSpringBoot.beans.Student">
+        <constructor-arg name="firstName" value="Julius"/>
+        <constructor-arg name="lastName" value="Caesar"/>
+    </bean>
+    <bean id="Student3" class="com.piy.SimpleSpringBoot.beans.Student">
+        <constructor-arg name="firstName" value="Mark"/>
+        <constructor-arg name="lastName" value="Antony"/>
+    </bean>
+
+</beans>
